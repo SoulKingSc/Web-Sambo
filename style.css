@@ -1,0 +1,326 @@
+body{
+    font-family: sans-serif;
+    height: 2600px;
+}
+
+header{
+    box-shadow: 0 4px 25px -22px black;
+}
+
+select{
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #333;
+    width: 200px;
+    cursor: pointer;
+}
+
+select:hover{
+    border-color: #999;
+}
+
+select:focus{
+    border-color: #007bff;
+    box-shadow:  0 0 5px rgba(0, 123, 255, 0.7);
+    outline: none;
+}
+
+select option:checked{
+    background-color: #007bff;
+    color: #fff;
+}
+.header-a{
+    display: flex;
+    height: 100px;
+    background-color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;  
+    
+}
+
+.header-content{
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.container-nav{
+    padding: 15px
+}
+
+.logo{
+   display: flex;
+   align-items: center;
+}
+
+.logo img{
+    height: 206px;
+    margin-left: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+nav a{
+    font-weight: 600;
+    padding-right: 10px;
+}
+
+nav a:hover{
+    color: #F634E3;
+}
+
+
+#pais{
+    margin-right: 30px;
+}
+
+.container-nav{
+    display: flex;
+    gap: 20rem;
+    justify-content: center;
+    text-decoration: none;
+    font-weight: 600px;
+}
+
+.container-heroe{
+    background: linear-gradient(90deg, rgba(242, 176, 231, 0.44) 28.26%, rgba(204, 228, 254, 0.43) 73.83%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.container-text{
+    margin-left: 100px;
+    margin-right: 250px;
+}
+
+.texto-niño{
+    color: #000;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 50px
+}
+
+.compra{
+    background-color:  #D726F3;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 150px;
+    border-color: #D726F3;
+    border-bottom: #D726F3;
+    
+}
+
+.container-heroe img {
+    display: flex;
+    height: 317px;
+    width: 300px;
+    margin-right: 200px;
+}
+
+.container-somos {
+    background: linear-gradient(90deg, rgba(217, 225, 244, 0.20) 30.87%, rgba(214, 38, 243, 0.20) 99.71%), rgba(204, 228, 254, 0.09);
+    padding: 20px;
+    text-align: center;
+    color: black;
+    height: 409px;
+}
+
+.container-somos h1{
+    color: #FF00E5;
+    text-align: center;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.container-somos p{
+    color: #000;
+text-align: center;
+font-family: Inter;
+font-size: 32px;
+font-style: italic;
+font-weight: 300;
+line-height: normal;
+margin-top: 100px;
+}
+
+.container-nacio{
+    background: linear-gradient(90deg, #F6D3D9 0%, rgba(181, 148, 235, 0.56) 98.72%);
+    height: 560px;
+    padding: 20px;
+    text-align: center;
+}
+
+.container-nacio h2{
+    
+    color: #FF00E5;
+    text-align: center;
+    font-family: Inter;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.container-nacio p{
+    color: #000;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: normal;
+    margin-left: 50px
+}
+.container-nacio img{
+    display: flex;
+    height: 300px;
+    width: 300px;
+    margin-right: 200px;
+    justify-content: space-between;
+}
+.text-porque {
+    display: flex;
+}
+
+.container-proyecto{
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 549px;
+}
+
+.text-proyecto{
+    flex: 1;
+    margin-right: 20px;
+    margin-left: 500px;
+}
+
+.container-proyecto h2{
+    color: #FF00E5;
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-style: italic;
+font-weight: 500;
+line-height: normal;
+}
+
+.container-proyecto p{
+    color: #000;
+text-align: center;
+font-family: Inter;
+font-size: 32px;
+font-style: italic;
+font-weight: 300;
+line-height: normal;
+}
+
+.container-proyecto img{
+    flex: 0 0 auto;
+    height: 400px;
+    width: 400px;
+    margin-top: -300px;
+}
+
+.container-contacto{
+    background: linear-gradient(90deg, rgba(217, 225, 244, 0.20) 30.87%, rgba(214, 38, 243, 0.20) 99.71%), rgba(204, 228, 254, 0.09);
+    height: 450px;
+
+}
+
+#logo-sambo{
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+    margin-left: 500px;
+}
+
+#imagen-bocina{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 10px;
+    margin-left: 150px;
+}
+
+#logo-insta{
+    height: 50px;
+    width: 50px;
+    margin-bottom: 10px;
+    margin-left: 150px;
+}
+.container-contacto h3{
+    color: #000;
+text-align: left;
+font-family: Inter;
+font-size: 32px;
+font-style: italic;
+font-weight: 500;
+line-height: normal;
+margin-left: 10px;
+margin-bottom: 20px;
+margin-top: 10px;
+}
+
+.contactanos{
+    margin-top: -100px;
+}
+.container-contacto p{
+    color: #000;
+text-align: left;
+font-family: Inter;
+font-size: 32px;
+font-style: italic;
+font-weight: 500;
+line-height: normal;
+margin-left: 10px;
+
+margin-top: 10px;
+}
+
+.container-contacto h2{
+    color: #F8A2EA;
+text-align: left;
+font-family: Inter;
+font-size: 32px;
+font-style: italic;
+font-weight: 500;
+line-height: normal;
+margin-left: 200px;
+}
+.numero{
+    display: flex;
+}
+
+.instagram{
+    display: flex;
+}
+@media (max-width: 700px){
+    header{
+        flex-direction: column;
+    }
+
+    .container-nav{
+        flex-direction: column;
+    }
+}
